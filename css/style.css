@@ -1,6 +1,7 @@
 body{
 	background: grey;
 	font-family: 'Poppins', sans-serif;
+	padding: 0;
 
 }
 
@@ -9,16 +10,46 @@ h1,h2,h3,h4   {
 	font-size: 2em;
 }
 
-
 #wrap {
 	background-color: tomato;
 	width: 90%;
 	height: 1200px;
-	padding: 0 auto;
-
+	padding: 0;
+	margin: 0 auto;
 }
+
 header{
 	background-color: lime;
 	display: block;
 	width: 100
+}
+.logo-container{
+	background-color: blue;
+	width: 200px;
+	height: auto;
+	display: inline-block;
+	padding: 0 10px;
+}
+
+nav{
+	background-color: yellow;
+	width: 600px;
+	height: 60px;
+	display: inline-block;
+	padding: 0 50px 0 0;
+	float: right;
+	margin-top: 10px;
+}
+
+ul{
+	background-color: red;
+	display: inline-block;
+	float: right;
+}
+
+li{
+	background-color: pink;
+	display: inline-block;
+	margin: 0 10px;
+
 }
