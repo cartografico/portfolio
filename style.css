@@ -39,7 +39,7 @@ p{
   /* background-color: #ffffff; */
   position: static;
   width: 70%;
-  min-height: 100vh;
+  height: auto;
   float: right;
 }
 
