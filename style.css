@@ -28,9 +28,8 @@ p{
 }
 
 .about{
-  /* background-color: #fff; */
   width: 30%;
-  min-height:100vh;
+  height:100vh;
   position: fixed;
   float: left;
 }
@@ -39,7 +38,7 @@ p{
   /* background-color: #ffffff; */
   position: static;
   width: 70%;
-  height: auto;
+  height: 100vh;
   float: right;
 }
 
@@ -125,10 +124,12 @@ p{
 }
 
 .social-wrapper {
-  margin: 40px auto ;
-  width: auto;
+  margin: 0 auto ;
+  position: absolute;
+  width: 100% ;
   height:auto;
   text-align: center;
+  bottom: 0;
 }
 .social-wrapper .github-wrapper{
   margin: 0;
@@ -164,7 +165,7 @@ p{
 /* ------------------------- */
 
 #project-section{
-  height: 45px;
+  margin-top: 200px;
 }
 
 /* ------------------------- */
