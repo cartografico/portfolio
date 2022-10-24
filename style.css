@@ -2,6 +2,10 @@ body{
   position: relative;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 h1, h2, h3, h4{
   font-family: Poppins;
 }
@@ -11,7 +15,7 @@ h1 {
 
 }
 h2 {
-  font-size:16px;
+  font-size:18px;
   font-weight: 500;
 }
 h3{
@@ -52,10 +56,9 @@ p{
   float: left;
   width: 20px;
   height: 20px;
-  margin: 10px 5px 10px 25px;
+  margin: 10px 5px 10px 30px;
 }
 #title-wrapper h1{
-  /* background-color: whitesmoke; */
   display: inline-block;
   width: auto;
   position: relative;
@@ -63,7 +66,6 @@ p{
 }
 
 #author-name{
-  /* background-color: whitesmoke; */
   position: relative;
   padding: 10px;
   margin:80px auto 0px auto;
@@ -79,7 +81,6 @@ p{
   border-bottom: 3px solid #4720BA;
 }
 #section-text{
-  /* background-color: whitesmoke; */
   position: relative;
   padding: 10px;
   margin: -10px auto 90px auto;
@@ -138,8 +139,8 @@ p{
   overflow: hidden;
 }
 .social-wrapper .github-wrapper #github-logo{
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
   display: inline-block;
   margin: auto;
 }
@@ -155,15 +156,24 @@ p{
 
 .social-wrapper .linkedin-wrapper #linkedin-logo{
   width: auto;
-  height: 30px;
+  height: 25px;
   display: inline-block;
   margin: auto;
 }
 /* ------------------------- */
+/* ------------------------- */
+
+#project-section{
+  height: 45px;
+}
+
+/* ------------------------- */
+/* ------------------------- */
+
 .content .title-section {
   height: auto;
   width: auto;
-  padding: 0 150px 0 50px;
+  padding: 0 200px 0 50px;
   position: relative;
   overflow: hidden;
 }
@@ -179,17 +189,19 @@ p{
   overflow: hidden;
 }
 .content .content-wrapper .about-wrapper{
-  padding: 90px 250px 0 100px;
-  margin: 30px 0 150px 0;
+  padding: 90px 200px 0 100px;
+  margin: 40px 0 100px 0;
   position: relative;
 }
 .content .content-wrapper .about-wrapper h3 {
   margin-bottom: 25px;
 }
 .content .content-wrapper .about-wrapper p{
+  padding: 0 15px 0 0;
+  text-justify: inter-word;
   display: block;
-  padding-right: 1500;
-  line-height: 2;
+  line-height: 30px;
+  border-right: 3px solid #4720BA;
 }
 /* ------------------------------------ */
 article {
@@ -240,5 +252,4 @@ article #article-text-wrapper h2{
   float: right;
   position: relative;
   margin: 0 5px 0px 5px;
-
 }
