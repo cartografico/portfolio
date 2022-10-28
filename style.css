@@ -161,16 +161,37 @@ p{
   display: inline-block;
   margin: auto;
 }
-/* ------------------------- */
-/* ------------------------- */
 
-#project-section{
-  margin-top: 0px;
+
+
+
+
+
+/* ABOUT  & WELLCOME*/
+/* ------------------------- */
+.contet{
+  position: relative;
+
 }
-
-/* ------------------------- */
-/* ------------------------- */
-
+.content .image-presentation{
+  /* background-color: red; */
+  margin: 150px 20% 0px auto;
+  position: relative;
+  max-width: 600px;
+  max-height: 500px;
+  overflow: hidden;
+  text-align: center;
+}
+.content .image-presentation img{
+  width: 500px;
+  opacity: 0.9;
+}
+.content .image-presentation p{
+  display: inline-block;
+  margin: 30px auto -90px auto;
+}
+/* --------------- */
+/* ABOUT */
 .content .title-section {
   height: auto;
   width: auto;
@@ -190,7 +211,7 @@ p{
   overflow: hidden;
 }
 .content .content-wrapper .about-wrapper{
-  padding: 90px 200px 0 100px;
+  padding: 0px 200px 0 100px;
   margin: 40px 0 100px 0;
   position: relative;
 }
@@ -203,6 +224,12 @@ p{
   display: block;
   line-height: 30px;
   border-right: 3px solid #4720BA;
+}
+
+/* PROJECTS */
+
+#project-section{
+  margin-top: 0px;
 }
 /* ------------------------------------ */
 article {
@@ -253,4 +280,23 @@ article #article-text-wrapper h2{
   float: right;
   position: relative;
   margin: 0 5px 0px 5px;
+}
+
+/* ________________
+------ CONTACT______ */
+
+/* .contact{
+  position: relative;
+  width: 70%;
+  height: 100vh;
+  float: right;
+
+} */
+.content .contact-wrapper{
+  padding: 30px;
+  background-color: red;
+  width: 90%;
+  height: 400px;
+  margin-top: 1000px;
+
 }
