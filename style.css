@@ -162,11 +162,6 @@ p{
   margin: auto;
 }
 
-
-
-
-
-
 /* ABOUT  & WELLCOME*/
 /* ------------------------- */
 .contet{
@@ -293,10 +288,16 @@ article #article-text-wrapper h2{
 
 } */
 .content .contact-wrapper{
-  padding: 30px;
-  background-color: red;
+  padding: 60px;
+  background-color: white;
   width: 90%;
   height: 400px;
   margin-top: 1000px;
 
+}
+
+.content .contact-wrapper form input{
+  display: block;
+  padding: 5px;
+  margin: 10px 0;
 }
