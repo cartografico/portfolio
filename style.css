@@ -237,6 +237,7 @@ article {
   padding: 10px;
   margin: 10px 10px 35px 30px;
   text-align: right;
+  border-radius: 10px;
 }
 
 article:hover {
@@ -292,7 +293,7 @@ article #article-text-wrapper h2{
   background-color: white;
   width: 90%;
   height: 400px;
-  margin-top: 1000px;
+  margin-top: 50px;
 
 }
 
