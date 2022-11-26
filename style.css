@@ -1,0 +1,101 @@
+:root {
+  --main-text-color: black;
+  --main-bc-color: #4720ba;
+  --secondary-bc-color: lightblue;
+  --font-style-header: Poppins;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 10px;
+  max-width: 100vw;
+  overflow: hidden;
+}
+/* -----------------------MAIN------------------------------------------- */
+.main {
+  background-color: lightblue;
+  min-width: 30%;
+  min-height: 100vh;
+  margin: 0 auto;
+  position: fixed;
+  padding: 1rem;
+  float: left;
+  /* display: flex;
+  flex-direction: column; */
+}
+.main__header {
+  /* background-color: lightgrey;
+  display: flex; */
+}
+.main__header--logo-container {
+  /* background-color: red;
+  display: inline-block;
+  min-height: fit-content; */
+}
+.main__header--logo-container img {
+  /* width: 1.8rem; */
+}
+.main__header--name-container {
+  /* background-color: blue;
+  display: inline-block;
+  min-height: ; */
+}
+.main__header--name-container p {
+  /* font-size: 1.5rem;
+  font-family: Verdana, Poppins, Tahoma, sans-serif; */
+}
+.main__author-container {
+  /* background-color: lime;
+  min-width: max-content;
+  padding: 170px 0 0 0;
+  display: flex;
+  flex-direction: row; */
+}
+.main__author-container p {
+  /* font-size: 1.8rem; */
+}
+.main__welcome {
+}
+.main__welcome p {
+}
+.main__nav {
+}
+.nav__ul {
+}
+.ul__li {
+}
+.ul__li--a {
+}
+.main__social {
+}
+.main__social--linkedin {
+}
+.main__social--linkedin img {
+}
+.main__social--github {
+}
+.main__social--github img {
+}
+
+/* --------------------CONTAINER-------------------------------------- */
+
+.wrap {
+  background-color: salmon;
+  position: relative;
+  max-width: 70%;
+  padding: 1rem;
+  float: right;
+  overflow: hidden;
+  /* display: flex;
+  flex-direction: column; */
+}
+.container {
+  /* min-height: 100vh; */
+}
