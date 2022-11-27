@@ -25,7 +25,8 @@ body {
   height: 100vh;
 }
 .main {
-  min-width: 31%;
+  width: 31%;
+  min-width: 348px;
   min-height: 100vh;
   padding: 2em 3.8em 0em 3.8em;
   flex-grow: 1;
@@ -179,7 +180,7 @@ body {
 .about-container__wrapper--P {
   /* background-color: lightgreen; */
   display: flex;
-  padding: 1em 13em 3em 3em;
+  padding: 1em 15em 3em 3em;
 }
 .about-container__wrapper--H h2 {
   /* background-color: red; */
