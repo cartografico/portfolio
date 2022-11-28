@@ -24,14 +24,16 @@
   <body>
     <div class="main-wrapper">
       <section class="main">
-        <header class="main__header">
-          <div class="main__header--logo-container">
-            <img src="media/logo.png" alt="LogoCartografico" />
-          </div>
-          <div class="main__header--name-container">
-            <p>Cartografico</p>
-          </div>
-        </header>
+        <a href="index.html">
+          <header class="main__header">
+            <div class="main__header--logo-container">
+              <img src="media/logo.png" alt="LogoCartografico" />
+            </div>
+            <div class="main__header--name-container">
+              <p>Cartografico</p>
+            </div>
+          </header>
+        </a>
         <div class="main__author-container">
           <p>
             Camilo <br />
@@ -44,9 +46,9 @@
         <div class="main__nav nav">
           <ul class="nav__ul ul">
             <li class="ul__li">
-              <a href="" class="ul__li--a">Sobre</a>
-              <a href="" class="ul__li--a">Proyectos</a>
-              <a href="" class="ul__li--a">Contacto</a>
+              <a href="#about" class="ul__li--a">Sobre</a>
+              <a href="#projects" class="ul__li--a">Proyectos</a>
+              <a href="#contact" class="ul__li--a">Contacto</a>
             </li>
           </ul>
         </div>
@@ -60,7 +62,7 @@
         </div>
       </section>
       <!------------------------SLIDER------------------------------->
-      <div class="wrap">
+      <div class="wrap" id="hero">
         <section class="container">
           <div class="container__slider slider">
             <div class="slider__vector">
@@ -73,12 +75,12 @@
         </section>
 
         <!---------------------------ABOUT---------------------------->
-        <section class="container">
-          <div class="container__about-container about-container">
-            <div class="about-container__wrapper--H">
+        <section class="container" id="about">
+          <div class="container__about-container content-container">
+            <div class="about-container__wrapper--H wrapper-H">
               <h2>Sobre mi</h2>
             </div>
-            <div class="about-container__wrapper--P">
+            <div class="about-container__wrapper--P wrapper-P">
               <p>
                 En el año 2013 escribí mis primeras lineas de código, mi tarea
                 consistía asistir en la implementación de mapas interactivos por
@@ -96,10 +98,12 @@
           </div>
         </section>
         <!-- -------------------PROJECTS----------------------------->
-        <section class="container">
-          <div class="container__article-container article-container">
-            <div class="article-container__text">
-              <h2>PROYECTOS</h2>
+        <section class="container" id="projects">
+          <div class="container__article-container content-container">
+            <div class="article-container__text--wrapperH wrapper-H">
+              <h2>Proyectos</h2>
+            </div>
+            <div class="article-container__text--wrapperP wrapper-P">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Reprehenderit, vero numquam veritatis quibusdam perspiciatis,
@@ -108,18 +112,92 @@
                 obcaecati sunt!
               </p>
             </div>
-            <div class="article-container__article article">
-              <div class="article__subtitle">
-                <p>Wordpress</p>
+            <div class="article-wrapper content-container">
+              <div class="article-container__article article">
+                <div class="article__subtitle-wrapper">
+                  <p>Wordpress</p>
+                </div>
+                <div class="article_title-wrapper">
+                  <p>Geonix</p>
+                </div>
               </div>
-              <div class="article_title">
-                <p>Geonix</p>
+              <div class="article-container__article article">
+                <div class="article__subtitle-wrapper">
+                  <p>Wordpress</p>
+                </div>
+                <div class="article_title-wrapper">
+                  <p>Geonix</p>
+                </div>
+              </div>
+              <div class="article-container__article article">
+                <div class="article__subtitle-wrapper">
+                  <p>Wordpress</p>
+                </div>
+                <div class="article_title-wrapper">
+                  <p>Geonix</p>
+                </div>
+              </div>
+              <div class="article-container__article article">
+                <div class="article__subtitle-wrapper">
+                  <p>Wordpress</p>
+                </div>
+                <div class="article_title-wrapper">
+                  <p>Geonix</p>
+                </div>
+              </div>
+              <div class="article-container__article article">
+                <div class="article__subtitle-wrapper">
+                  <p>Wordpress</p>
+                </div>
+                <div class="article_title-wrapper">
+                  <p>Geonix</p>
+                </div>
+              </div>
+              <div class="article-container__article article">
+                <div class="article__subtitle-wrapper">
+                  <p>Wordpress</p>
+                </div>
+                <div class="article_title-wrapper">
+                  <p>Geonix</p>
+                </div>
+              </div>
+              <div class="article-container__article article">
+                <div class="article__subtitle-wrapper">
+                  <p>Wordpress</p>
+                </div>
+                <div class="article_title-wrapper">
+                  <p>Geonix</p>
+                </div>
+              </div>
+              <div class="article-container__article article">
+                <div class="article__subtitle-wrapper">
+                  <p>Wordpress</p>
+                </div>
+                <div class="article_title-wrapper">
+                  <p>Geonix</p>
+                </div>
+              </div>
+              <div class="article-container__article article">
+                <div class="article__subtitle-wrapper">
+                  <p>Wordpress</p>
+                </div>
+                <div class="article_title-wrapper">
+                  <p>Geonix</p>
+                </div>
+              </div>
+              <div class="article-container__article article">
+                <div class="article__subtitle-wrapper">
+                  <p>Wordpress</p>
+                </div>
+                <div class="article_title-wrapper">
+                  <p>Geonix</p>
+                </div>
               </div>
             </div>
           </div>
         </section>
         <!------------------------CONTACT------------------------------>
-        <section class="container">
+        <section class="container" id="contact">
           <div class="contact-container">
             <form action="">
               <input type="text" />
