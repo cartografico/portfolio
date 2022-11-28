@@ -40,6 +40,7 @@ p {
   width: 31%;
   min-width: 348px;
   min-height: 100vh;
+  height: 100vh;
   padding: 2.5em 3.8em 0em 3em;
   flex-grow: 1;
   flex-shrink: 0;
