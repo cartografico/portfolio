@@ -249,7 +249,10 @@ p {
   max-height: 20em;
   min-height: 20em;
 }
-
+.article-container__article:hover {
+  transition: all 0.1s ease-in-out;
+  transform: scale(1.05);
+}
 .article__subtitle-wrapper {
   /* background-color: red; */
   display: flex;
@@ -285,7 +288,7 @@ p {
   flex-direction: column;
   justify-content: left;
   align-items: left;
-  padding: 1em;
+  padding: 0em;
   color: var(--main-text-color);
   font-size: 1.7em;
   font-family: var(--font-style-header);
@@ -296,7 +299,7 @@ input {
   width: 100%;
 }
 .contact-container__wrapper--form input {
-  padding: 1em;
+  padding: 0.5em;
   border-radius: 0.5em;
   border: 0.2em solid var(--main-bc-color);
 }
