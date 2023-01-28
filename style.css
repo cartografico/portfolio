@@ -1,40 +1,42 @@
-body{
+body {
   position: relative;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
-h1, h2, h3, h4{
+h1,
+h2,
+h3,
+h4 {
   font-family: Poppins;
 }
 h1 {
   font-size: 18px;
   font-weight: 500;
-
 }
 h2 {
-  font-size:18px;
+  font-size: 18px;
   font-weight: 500;
 }
-h3{
+h3 {
   font-size: 32px;
   font-weight: 600;
 }
- 
-p{
+
+p {
   font-family: Poppins;
 }
 
-.about{
+.about {
   width: 30%;
-  height:100vh;
+  height: 100vh;
   position: fixed;
   float: left;
 }
 
-.content{
+.content {
   /* background-color: #ffffff; */
   position: static;
   width: 70%;
@@ -50,57 +52,57 @@ p{
   position: relative;
 }
 
-#title-wrapper img{
+#title-wrapper img {
   position: relative;
   float: left;
   width: 20px;
   height: 20px;
   margin: 10px 5px 10px 30px;
 }
-#title-wrapper h1{
+#title-wrapper h1 {
   display: inline-block;
   width: auto;
   position: relative;
   margin: 10px 0px 0px 0px;
 }
 
-#author-name{
+#author-name {
   position: relative;
   padding: 10px;
-  margin:80px auto 0px auto;
+  margin: 80px auto 0px auto;
   width: auto;
-  height:auto;
+  height: auto;
 }
 
-#author-name h2{
+#author-name h2 {
   padding-bottom: 10px;
   width: auto;
   margin: 60px 10px 0 30px;
-  color:#4720BA;
-  border-bottom: 3px solid #4720BA;
+  color: #4720ba;
+  border-bottom: 3px solid #4720ba;
 }
-#section-text{
+#section-text {
   position: relative;
   padding: 10px;
   margin: -10px auto 90px auto;
   width: auto;
-  height:auto;
+  height: auto;
 }
 
-#section-text p{
+#section-text p {
   font-family: Poppins;
   font-size: 32px;
   font-weight: 600;
   line-height: 40px;
   margin: 0 10px 0 30px;
-  color:black;
+  color: black;
 }
 #nav-wrapper {
   position: relative;
   padding: 10px;
   margin: 10px auto 20px auto;
   width: auto;
-  height:auto;
+  height: auto;
   text-align: right;
 }
 #nav-wrapper ul {
@@ -108,10 +110,10 @@ p{
   margin: -50px 0 50px 0;
   padding-right: 15px;
 }
-#nav-wrapper ul li{
+#nav-wrapper ul li {
   margin: 10px 0 0 0px;
 }
-#nav-wrapper ul li a{
+#nav-wrapper ul li a {
   font-family: Poppins;
   color: black;
   text-decoration: none;
@@ -119,43 +121,43 @@ p{
   font-weight: 500;
 }
 
-#nav-wrapper ul li a:hover{
-  border-bottom: 3px solid #4720BA;
+#nav-wrapper ul li a:hover {
+  border-bottom: 3px solid #4720ba;
 }
 
 .social-wrapper {
-  margin: 0 auto ;
+  margin: 0 auto;
   position: absolute;
-  width: 100% ;
-  height:auto;
+  width: 100%;
+  height: auto;
   text-align: center;
   bottom: 0;
 }
-.social-wrapper .github-wrapper{
+.social-wrapper .github-wrapper {
   margin: 0;
   position: relative;
   width: 40px;
-  height:40px;  
+  height: 40px;
   display: inline-block;
   overflow: hidden;
 }
-.social-wrapper .github-wrapper #github-logo{
+.social-wrapper .github-wrapper #github-logo {
   width: 25px;
   height: 25px;
   display: inline-block;
   margin: auto;
 }
 
-.social-wrapper .linkedin-wrapper{
+.social-wrapper .linkedin-wrapper {
   margin: 0;
   position: relative;
   width: 40px;
-  height:40px;  
+  height: 40px;
   display: inline-block;
   overflow: hidden;
-  }
+}
 
-.social-wrapper .linkedin-wrapper #linkedin-logo{
+.social-wrapper .linkedin-wrapper #linkedin-logo {
   width: auto;
   height: 25px;
   display: inline-block;
@@ -164,11 +166,10 @@ p{
 
 /* ABOUT  & WELLCOME*/
 /* ------------------------- */
-.contet{
+.contet {
   position: relative;
-
 }
-.content .image-presentation{
+.content .image-presentation {
   /* background-color: red; */
   margin: 150px 20% 0px auto;
   position: relative;
@@ -177,11 +178,11 @@ p{
   overflow: hidden;
   text-align: center;
 }
-.content .image-presentation img{
+.content .image-presentation img {
   width: 500px;
   opacity: 0.9;
 }
-.content .image-presentation p{
+.content .image-presentation p {
   display: inline-block;
   margin: 30px auto -90px auto;
 }
@@ -194,7 +195,7 @@ p{
   position: relative;
   overflow: hidden;
 }
-.content .title-section p{
+.content .title-section p {
   line-height: 30px;
 }
 
@@ -205,7 +206,7 @@ p{
   position: relative;
   overflow: hidden;
 }
-.content .content-wrapper .about-wrapper{
+.content .content-wrapper .about-wrapper {
   padding: 0px 200px 0 100px;
   margin: 40px 0 100px 0;
   position: relative;
@@ -213,22 +214,23 @@ p{
 .content .content-wrapper .about-wrapper h3 {
   margin-bottom: 25px;
 }
-.content .content-wrapper .about-wrapper p{
+.content .content-wrapper .about-wrapper p {
   padding: 0 15px 0 0;
   text-justify: inter-word;
   display: block;
   line-height: 30px;
-  border-right: 3px solid #4720BA;
+  border-right: 3px solid #4720ba;
 }
 
 /* PROJECTS */
 
-#project-section{
+#project-section {
   margin-top: 0px;
+  height: fit-content;
 }
 /* ------------------------------------ */
 article {
-  background-color: #4720BA;
+  background-color: #4720ba;
   float: left;
   position: relative;
   height: 200px;
@@ -241,11 +243,11 @@ article {
 }
 
 article:hover {
-  transition: all .1s ease-in-out;
+  transition: all 0.1s ease-in-out;
   transform: scale(1.05);
 }
 
-article #article-text-wrapper{
+article #article-text-wrapper {
   overflow: hidden;
   padding: 5px;
   width: fit-content;
@@ -255,18 +257,18 @@ article #article-text-wrapper{
   right: 0px;
   position: absolute;
 }
-article #article-text-wrapper h3{
+article #article-text-wrapper h3 {
   font-size: 14px;
   font-weight: 400;
   color: white;
-  height:fit-content;
+  height: fit-content;
   width: fit-content;
   float: right;
   position: relative;
   margin: 0 5px 5px 5px;
 }
 
-article #article-text-wrapper h2{
+article #article-text-wrapper h2 {
   padding: 0;
   font-size: 22px;
   font-weight: 500;
@@ -288,15 +290,14 @@ article #article-text-wrapper h2{
   float: right;
 
 } */
-.content .contact-wrapper{
+.content .contact-wrapper {
   padding: 60px;
-  background-color: white;
   width: 90%;
   height: 400px;
   margin-top: 50px;
 }
 
-.content .contact-wrapper form input{
+.content .contact-wrapper form input {
   display: block;
   padding: 5px;
   margin: 10px 0;
